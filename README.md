@@ -1,5 +1,4 @@
-# autobrew
-auto install application by homebrew in macos 
+# autobrew  
 Mac 电脑一键部署常用软件  
 
 大多数从外网下载的软件会有网络问题。不想折腾的就多试几次。  
@@ -8,20 +7,20 @@ Mac 电脑一键部署常用软件
 
 安装 homebrew  
   
-/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"  
+`/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"`  
   
 安装 zsh （不必要，增加兼容性）  
-brew install zsh  
+`brew install zsh`  
   
 安装ohmyzsh （不必要，好看）
-sh -c "$(curl -fsSL https://gitee.com/allenjia09/ohmyzsh/raw/master/tools/install.sh)"  
+`sh -c "$(curl -fsSL https://gitee.com/allenjia09/ohmyzsh/raw/master/tools/install.sh)"` 
   
 更新 rosetta （不更新有的会报错）  
-sudo softwareupdate --install-rosetta  
+`sudo softwareupdate --install-rosetta`  
   
 执行安装命令 brew install xxx 可以放多个，中间空格隔开。  
   
-brew install wechat qq qqmusic neteasemusic geph wpsoffice iina  eul  obs steam bilibili  baidunetdisk todesk tencent-meeting dingtalk maczip  
+`brew install wechat qq qqmusic neteasemusic geph wpsoffice iina  eul  obs steam bilibili  baidunetdisk todesk tencent-meeting dingtalk maczip`  
   
 对照下表，把不需要的软件从上面删掉。  
 安装过程中会有输入密码。不是完全自动。  
