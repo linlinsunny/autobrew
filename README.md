@@ -1,6 +1,7 @@
 # autobrew  
 Mac 电脑一键部署常用软件  
 
+通过 homebrew 来安装软件。不用找网站。不用手动下载。不用安装。
 大多数从外网下载的软件会有网络问题。不想折腾的就多试几次。  
 或者你懂的  
   
@@ -52,9 +53,22 @@ blender 		    	    //全能冠军
 parallels-client 		  //rdp 远程控制  
 wetype			          //微信输入法（只下载，完毕后在终端里运行 open /opt/homebrew/Caskroom/wetype/1.0.3,269/WeTypeInstaller_1.0.3_269.app）  
 steam 				        //玩游戏  
-parallels 			      //虚拟机（正版）  
 google-chrome 		  	//浏览器  
-  
-有想加入列表的软件，先从下面的网址查询有没有。  
+-----------------------------------------------  
+下面的是正版试用  
+parallels 			      //虚拟机  
+permute               //文件转换  
+downie                //视频下载  
+microsoft-office      //办公  
+affinity-designer     //
+affinity-photo        //
+affinity-publisher    //
 
+
+有想加入列表的软件，先从下面的网址查询有没有。  
+  
 https://formulae.brew.sh
+  
+或者直接从这个网页浏览。  
+
+https://formulae.brew.sh/cask/  
